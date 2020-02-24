@@ -2,3 +2,27 @@
     border: 2px solid red;
     padding: 50px;
 }
+
+.d {
+    padding: 10px;
+    border: 2px solid pink;
+}
+
+.s {
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+.list {
+    padding: 10px;
+    border: 1px solid green;
+}
+
+.item {
+    padding: 5px;
+    border: 1px dashed brown;
+    &:hover {
+
+        background-color: silver;
+    } 
+}
