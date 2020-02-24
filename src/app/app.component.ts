@@ -7,11 +7,9 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  animal: string;
   ids: number[] = [1,2,3,4,5];
   constructor(private router: Router, private route: ActivatedRoute) {}
   name = 'angularbase';
-  in: string = 'hello'; 
   // onClick(elem) {
   //   console.log("from app")
   //   this.router.navigate([], {
